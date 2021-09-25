@@ -1,0 +1,54 @@
+body{
+	background-color: white;
+}
+h1 {  
+    text-align: center;  
+    padding: 23px;  
+     color: black;  
+    }  
+.container{
+	width: 350px;
+	height: 450px;
+	margin: 80px auto;
+	background: #c5e3e8;
+	box-shadow: 5px 5px 10px #b6a9a9,-5px -5px 10px #ffffff;
+}
+.cal-box{
+	width: 200px;
+	margin: 20px auto;
+}
+#display{
+	border: none;
+	outline: none;
+	color: black;
+	text-align: right;
+	font-weight: 600;
+	padding: 20px;
+	margin: 40px 0 30px 0;
+	background: transparent;
+	box-shadow: inset 2px 2px 5px #babecc,inset -5px -5px 10px #ffffff;
+}
+.button{
+	margin: 25px 0 0 5px;
+	width: 42px;
+	height: 42px;
+	border: none;
+	outline: none;
+	font-size: 18px;
+	font-weight: bold;
+	cursor: pointer;
+	border-radius: 8px;
+	background: 1f8f09;
+	box-shadow: 5px 5px 10px #b6a9a9;
+}
+.button:active{
+	box-shadow: inset 1px 1px 2px #babeec,inset -1px -1px 2px #ffffff;
+}
+.clearbutton{
+	background: #db0b3f;
+	color: white ;
+}
+.mathbutton{
+	background: #26ad7c;
+	color: white;
+}
